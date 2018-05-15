@@ -4,7 +4,8 @@
   "description": "A simple Node app for cucumber tests",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js"
+    "test": "cucumber-js",
+    "start": "npm run test"
   },
   "devDependencies": {
     "cucumber": "^4.0.0"
